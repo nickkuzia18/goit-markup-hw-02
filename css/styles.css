@@ -12,6 +12,7 @@ body {
 
 .link {
     text-decoration: none;
+    font-style: normal;
 }
 
 .list {
@@ -120,6 +121,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
     background-color: var(--main-brand-color);
 }
@@ -129,6 +131,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: var(--primary-action-color);
@@ -174,6 +178,7 @@ body {
 .doing-title {
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-brand-color);
@@ -190,6 +195,7 @@ body {
 .team-title {
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-brand-color);
@@ -205,6 +211,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-brand-color);
 }
@@ -212,6 +219,7 @@ body {
 .team-position {
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -249,8 +257,38 @@ body {
 
 .filters-item {}
 
-.project-list-list {}
+.filters-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+.project-list {}
+
+.project-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
 .project-item {}
 
-.project-text {}
+.project-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
