@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    color: var(--main-brand-color)
+    color: var(--main-brand-color);
 }
 
 .link {
@@ -264,14 +264,14 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--primary-action-color);
     background: #F4F4FD;
 }
 
 .filters-btn:hover,
 .filters-btn:focus {
     color: #FFFFFF;
-    background: #404BBF;
+    background: var(--hover-action-color);
 }
 
 .project-list {}
@@ -281,7 +281,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--main-brand-color);
 }
 
 .project-item {}
@@ -290,5 +290,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
