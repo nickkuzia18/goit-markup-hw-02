@@ -171,9 +171,7 @@ body {
 
 /*Doing*/
 
-.doing {
-    background-color: #F4F4FD;
-}
+.doing {}
 
 .doing-title {
     font-size: 36px;
@@ -190,7 +188,9 @@ body {
 
 /*--------------------Our Team---------------*/
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-size: 36px;
